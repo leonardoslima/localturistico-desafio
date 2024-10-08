@@ -1,0 +1,45 @@
+.section-tourism-highlight {
+  & img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 44px;
+    margin-bottom: 20px;
+
+    border-radius: 28px;
+  }
+
+  & h3 {
+    font: var(--text-h3);
+  }
+
+  & p {
+    font: var(--text-paragraph);
+  }
+
+  & span {
+    display: block;
+
+    font: bold var(--text);
+
+    margin-top: 1rem;
+  }
+
+  & ul {
+    margin-left: 40px;
+    padding: 0;
+
+    & li {
+      font: var(--text-paragraph);
+      font-weight: 700;
+    }
+  }
+}
+
+.footer-main {
+  & p {
+    text-align: center;
+    font: var(--text-paragraph);
+    color: var(--text-color-secondary);
+  }
+}

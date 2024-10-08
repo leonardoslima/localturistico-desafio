@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #f5f4f0;
+  --border-primary: #d9d9d9;
+  --text-color-primary: #1b1b1b;
+  --text-color-secondary: #333333;
+  --text-color-tertiary: #696969;
+  --text-color-headline: #e1624f;
+
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+
+  --font-family: "Open Sans", sans-serif;
+  --text-h1: bold 2.25rem/160% var(--font-family);
+  --text-h2: bold 2rem/160% var(--font-family);
+  --text-h3: bold 1.75rem/160% var(--font-family);
+  --text: 1rem/160% var(--font-family);
+  --text-headline: bold 1rem/160% var(--font-family);
+  --text-paragraph: 1rem/160% var(--font-family);
+  --text-subtitle: italic 1rem/160% var(--font-family);
+}
+
+body {
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+
+  padding-block: 5.5rem;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+.title-page {
+  & h1,
+  h2 {
+    color: var(--text-color-primary);
+  }
+
+  & span {
+    font: var(--text-headline);
+    color: var(--text-color-headline);
+    text-transform: uppercase;
+  }
+
+  & h1 {
+    font: var(--text-h1);
+  }
+
+  & h2 {
+    font: var(--text-h2);
+  }
+
+  & p {
+    font: var(--text-paragraph);
+    color: var(--text-color-secondary);
+  }
+}
+
+.historia {
+  color: var(--accent-blue);
+}
+
+.casais {
+  color: var(--accent-purple);
+}
+
+.familias {
+  color: var(--accent-pink);
+}
+
+.orcamento {
+  color: var(--accent-orange);
+}
